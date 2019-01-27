@@ -3,9 +3,8 @@ node_js:
 - node
 deploy:
   provider: s3
-  access_key_id: AKIAJOC6KHDBCUM2TNNQ
-  secret_access_key:
-    secure: UR1ptq94FiWEzRMG8MizZ3bU4nH/b+/q81Ms3jjcBUnouoPnhgeEYiZ7x/n27NPB25aSo4ghYPNndv5QxQcUYgQKPpoTNUNMH8uhNTcIWOKs5ULOiKLCduaEYRCOnH+I4XXJ4ecbQ//IqOiuG8wv/2a8y+Hm2aLjXmQf/oUVZrybo1R63f00xoDkoI7mo5jfQWscXjmLAZ9KQH5WV+LF/oc0Agep4ngnGJMM1NyYpscTjvaWpyqy4sOGOUBynM/ciOVJDBYzb2Y8Iq/v7FgLTZQlXUnOIBjEb8qa6ijCZlLS55ceCq2U+vihf/f+uDnd/kqYZunVJyMba+oMl5kZAO5y656Ev0gV411nfIKovGl0uZMUiXin5lfnTZHDzodEqOUvm6+AkO92oe0awEW1IZ63j/sewHxbi5ZHGMmwT9tOE3f9doWYjNKvAo/YUFw8xfOsL5976k9aI288Qa3JoxBB97pkrSocqewJASnta6FELQHeMiWDGsuAm1NjcncobXiFz9uLIE0qc/MxoJE4qoQY4MYa6uDzpvCRY7Y/SRXaKaWt3U/59GZru8Qy7I//tJZb/PhWxEmviLdyWYXzbOI8to9J+IqHB2K3CNWh2E2EQXNiYbfkHpZYZm8+rpmXkzfYoGXy6a+Do/2Jd00heLPNnkQhkqWyBFr36Cqrch8=
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: enriquegh.com
   acl: public_read
   region: us-west-2
