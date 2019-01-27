@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-  - node
+- node
 deploy:
   provider: s3
-  access_key_id: AKIAJQGO5VFPK3JXJRAQ
+  access_key_id: AKIAJOC6KHDBCUM2TNNQ
   secret_access_key:
-    secure: Xf7RFPDBKeqQ7cp7qww6yqxdAVcYTSGKhSdp0lQkxsbm9pLjQDk3bK+fKgrn01t8NJqXq+5XqejRw6rUvz5aZ8joFr/hKsr1wjmwZZiuVqYVGZM2heFjvw8aTLWJMuM9Sp3LiKTvmGFg6pkWMEdhwN+B60Yhm6qBgLcI6MDnbKSxSyoG1ytfEAs1ZKU6qVSf4AHh6SD6/MKLiXQ5DMHGS4gOI8/cpC/rVLI4XGzw1b+yqDHT3sET5hA3/C7u9DfV3BxKJgDxTEmT/hFwvAPa5DqGdfoRz9NrOo8LayML3dcZD9JSdFK+TP2zLIi0mHi8z9hyJQDrsoehCU1usWf93wKyF7mlyylldt2csmjb5OfQ4nHn2YOMrUU3OvWELywDaw4Pi4MXZTHYp5LTWi51GMicLwbIwaZT0a9wL59+LBpPIsUhqF9pE7L63gsP5M+3wG8qfr1ZrYC+dCyDiI9L5km/4HRs2xqz8VKmSwOL/LddNrZYH9AbK9LdYaq1GaADMyIt4dFRf8of42GVAIJlVE/tztEhaFnRYpgqbfoT6WBVch4JJnWcvLTbwhZsEjMG4oQS6whMFgBjfr7em9ZH0xsmBiqoK1hjMNJzHk2mZHZCvP3zQPdLQ3SueEFwaYdMzwQhniGwDaGnDGxiq4LPwnFy1wainGQIlJF3vXQ+w2Y=
+    secure: UR1ptq94FiWEzRMG8MizZ3bU4nH/b+/q81Ms3jjcBUnouoPnhgeEYiZ7x/n27NPB25aSo4ghYPNndv5QxQcUYgQKPpoTNUNMH8uhNTcIWOKs5ULOiKLCduaEYRCOnH+I4XXJ4ecbQ//IqOiuG8wv/2a8y+Hm2aLjXmQf/oUVZrybo1R63f00xoDkoI7mo5jfQWscXjmLAZ9KQH5WV+LF/oc0Agep4ngnGJMM1NyYpscTjvaWpyqy4sOGOUBynM/ciOVJDBYzb2Y8Iq/v7FgLTZQlXUnOIBjEb8qa6ijCZlLS55ceCq2U+vihf/f+uDnd/kqYZunVJyMba+oMl5kZAO5y656Ev0gV411nfIKovGl0uZMUiXin5lfnTZHDzodEqOUvm6+AkO92oe0awEW1IZ63j/sewHxbi5ZHGMmwT9tOE3f9doWYjNKvAo/YUFw8xfOsL5976k9aI288Qa3JoxBB97pkrSocqewJASnta6FELQHeMiWDGsuAm1NjcncobXiFz9uLIE0qc/MxoJE4qoQY4MYa6uDzpvCRY7Y/SRXaKaWt3U/59GZru8Qy7I//tJZb/PhWxEmviLdyWYXzbOI8to9J+IqHB2K3CNWh2E2EQXNiYbfkHpZYZm8+rpmXkzfYoGXy6a+Do/2Jd00heLPNnkQhkqWyBFr36Cqrch8=
   bucket: enriquegh.com
-  acl: 'public_read'
-  region: 'us-west-2'
+  acl: public_read
+  region: us-west-2
   on:
     repo: enriquegh/enriquegh_website
