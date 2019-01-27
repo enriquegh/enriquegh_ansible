@@ -1,0 +1,19 @@
+{
+  "name": "enriquegh_website",
+  "version": "1.0.0",
+  "description": "Enrique Gonzalez H",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enriquegh/enriquegh_website.git"
+  },
+  "author": "Enrique Gonzalez H",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enriquegh/enriquegh_website/issues"
+  },
+  "homepage": "https://github.com/enriquegh/enriquegh_website#readme"
+}
